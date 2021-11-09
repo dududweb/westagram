@@ -11,10 +11,6 @@
   flex-direction: column;
   margin-top: 24px;
 }
-.logo{
-  margin:22px auto 12px;
-  font-family: 'Lobster', cursive;
-}
 .loginWrap input{
   height: 36px;
   margin: 0 41px 6px;

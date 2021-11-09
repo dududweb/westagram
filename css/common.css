@@ -15,3 +15,10 @@ input{
   border-radius: 4px;
   outline: none;
 }
+.logo{
+  margin:22px auto 12px;
+  font-family: 'Lobster', cursive;
+}
+img{
+  width: 100%;
+}

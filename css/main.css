@@ -1,0 +1,178 @@
+#header{
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.navBar{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  
+}
+.navBar .navWrap{
+  height: 54px;
+  flex-grow: 1;
+  display: flex;
+}
+.navWrap:nth-child(1){
+  justify-content: start;
+}
+.navWrap:nth-child(2){
+  justify-content: center;
+}
+.navWrap:nth-child(3){
+  justify-content: flex-end;
+
+}
+.navWrap:nth-child(3) .menu:nth-child(3){
+  margin-right: 0;
+}
+.navWrap .menu{
+  display: flex;
+  align-items: center;
+
+}
+.logoText{
+  font-family: 'Lobster', cursive;
+  border-left: 1px solid #333;
+  padding-left: 10px;
+}
+.logoBox{
+  width: 30px;
+  margin-right: 20px;
+}
+
+.searchWrap{
+  width: 200px;
+  position: relative;
+}
+
+.searchWrap .searchBar{
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: rgba(250, 250, 250,1);
+  color: #333;
+} 
+.searchWrap .searchBarImg{
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 70px;
+  background-image: url(/img/ico_search.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15px;
+  border: none;
+}
+.wrapper{
+  max-width: 800px;
+  margin: 55px auto;
+}
+#article{
+  display: flex;
+  width: 100%;
+}
+#feedSection{
+  width: 65%;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  background-color: rgba(250, 250, 250,1);
+}
+#asideSection{
+  width: 35%;
+}
+.feedUser{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.feedInfo{
+  display: flex;
+  align-items: center;
+}
+.feedUserProfileName{
+  padding-left: 10px;
+  font-size: 1.2em;
+}
+.feedUserProfileImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.profile .profileImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.profile .profileImg img{
+  height: 100%;
+}
+.profile .profileDescription{
+  padding-left: 15px;
+}
+.storyFeed{
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  height: 220px;
+  overflow: hidden;
+}
+.storyWrap{
+  margin: 0 auto;
+  width: 85%;
+}
+.storyFeedHeadWrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.storyProfile{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.storyProfile .storyProfileImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.storyProfile .storyProfileImg img{
+  height: 100%;
+}
+.storyProfileDescription{
+  padding-left: 15px;
+}
+.storySameFollowersView{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  width: 150px;
+}
+.storyFeedRecommend{
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  height: 190px;
+  overflow: hidden;
+}
+.interaction{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.likeBtn, .reviewBtn, .shareBtn, .keepBtn {
+  font-size: 1.4em;
+  padding-right: 15px;
+}
+.keepBtn{
+  padding-right: 0pc;
+}
